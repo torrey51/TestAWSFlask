@@ -1,0 +1,9 @@
+{% extends 'Home.html' %}
+{% block content %}
+<h2>About </h2>
+    <ul>
+        {% for about in abouts %}
+        <li>{{ about }}</li>
+        {% endfor %}
+        </ul>
+{% endblock %}
